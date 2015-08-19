@@ -6,7 +6,11 @@ AppComponent.annotations = [
     selector: 'my-app'
   }),
   new angular.ViewAnnotation({
-    template: '<h1>My first Angular 2 App</h1>'
+    template: `<h1>My first Angular 2 App</h1>
+    	<form>
+    	<input type='checkbox'/>find in directory<input type='text'/>
+    	</form>
+    `
   })
 ];
 angular.bootstrap(AppComponent);
